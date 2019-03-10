@@ -1,0 +1,205 @@
+
+    body {
+    font: 15px arial, sans-serif;
+    background-color: #d9d9d9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    #bodybox {
+    margin: auto;
+    height: 90%;
+    font: 15px arial, sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-shadow: 5px 5px 5px grey;
+    }
+    #chatborder {
+    border-style: solid;
+    align-content: center;
+    width: 85%;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-color: darkgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    }
+    .chatlog {
+    font-family: "Avenir Next";
+    font-size: 13px;
+    }
+    #chatbox {
+    font-family: "Avenir Next";
+    font-size: 13px;
+    height: 25px;
+    width: 78%;
+    position: absolute;
+    bottom: 30;
+    margin-top:5px;
+    }
+    h1 {
+    margin: auto;
+    }
+    pre {
+    background-color: whitesmoke;
+    margin-left: 20px;
+    }
+    .center{
+    letter-spacing:3px;
+    text-align:center;
+    font-family: "Avenir Next";
+    color:rgb(94, 94, 94);
+    letter-spacing:2px;
+    text-shadow: 1px 1px darkgrey
+    }
+    .decorate{
+    letter-spacing:1px;
+    text-align: center;
+    font-family: "Avenir Next";
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    }
+    .centertext{
+    text-align:center;
+    line-height: 22px;
+    letter-spacing:1px;
+    }
+    .thinbar {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 75%;
+    margin-bottom:20px;
+    margin-top:-20px;
+    margin-left:52px;
+    }
+    .thinbar2 {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 90%;
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-left:52px;
+    margin-right: 52px;
+    }
+    .instr{
+    font-size: 22px;
+    text-align:center;
+    position: relative;
+    }
+    .scrollable{
+    overflow-y:scroll;
+    }
+    .fontchange{
+    background-color: lightgray;
+    padding:20px 35px;
+    margin:-11px -60px;
+    text-align:center;
+    border-radius:10px 10px 0 0;
+    font-family: "Avenir Next";
+    color: rgb(98, 98, 98);
+    letter-spacing:2px;
+    text-shadow: 1px 1px whitesmoke
+    }
+    .topmargin{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    }
+    #popup {
+    width:100%;
+    height:100%;
+    opacity:.95;
+    top:0;
+    left:0;
+    display:block;
+    position:absolute;
+    z-index: 9999;
+    background-color:#313131;
+    overflow:auto
+    }
+    div#popupContact {
+    position:absolute;
+    left:50%;
+    top:17%;
+    margin-left:-202px;
+    font-family:"Avenir Next";
+    }
+    form {
+    max-width:500px;
+    min-width:250px;
+    padding:10px 60px;
+    border:2px solid gray;
+    border-radius:10px;
+    font-family:"Avenir Next";
+    background-color:#fff
+    }
+    p {
+    margin-top:30px
+    }
+    hr {
+    margin:10px -50px;
+    border:0;
+    border-top:1px solid #ccc
+    }
+    input[type=text] {
+    width:100%;
+    padding:10px;
+    margin-top:30px;
+    border:1px solid #ccc;
+    padding-left:40px;
+    font-size:16px;
+    font-family:"Avenir Next";
+    }
+    #password{
+    background-repeat:no-repeat;
+    background-position:5px 7px
+    }
+    #email {
+    background-repeat:no-repeat;
+    background-position:5px 7px
+    }
+    #signin {
+    width:60%;
+    margin-left: 80px;
+    text-align:center;
+    display:block;
+    background-color:gray;
+    color:#fff;
+    border:1px solid whitesmoke;
+    padding:10px 0;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px
+    }
+    #signup {
+    width:40%;
+    text-align:center;
+    display:block;
+    background-color: rgb(199, 233, 243);
+    color: rgb(50, 89, 116);
+    border:1px solid lightgray;
+    margin-top: -7px;
+    padding:5px 0;
+    font-size:15px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-left: 120px;
+    }
+    #logininfo{
+    color: red;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Avenir Next"
+    }
+    #nametext{
+    font-family: "Avenir Next";
+    color: gray;
+    }

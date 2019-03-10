@@ -1,0 +1,102 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<html>
+<script src="./dist/amazon-cognito-identity.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.418.0.min.js"></script>
+<script src="./dist/aws-sdk.min.js"></script>
+<script src="./dist/aws-cognito-sdk.min.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.418.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/axios/dist/axios.standalone.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/CryptoJS/rollups/hmac-sha256.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/CryptoJS/rollups/sha256.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/CryptoJS/components/hmac.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/CryptoJS/components/enc-base64.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/url-template/url-template.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/apiGatewayCore/sigV4Client.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/apiGatewayCore/apiGatewayClient.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/apiGatewayCore/simpleHttpClient.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/lib/apiGatewayCore/utils.js"></script>
+<script type="text/javascript" src="./apiGateway-js-sdk/apigClient.js"></script>
+<script src = "https://eloquentjavascript.net/09_regexp.html"></script>
+<script src = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"></script>
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+crossorigin="anonymous">
+
+<head>
+    <title>Mr.Concierge</title>
+    <script src="./js/cbscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/cstyle.css">
+</head>
+    <!-- Body Starts Here -->
+<body id="body" style="overflow:hidden;">
+  <div id="popup" class = "col-md-12 fluid">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact" >
+  <!-- Sign In Info -->
+  <form action="#" id="form" method="post" name="form">
+  <h3 class = "fontchange">Welcome to Mr. Concierge <br> Please Log In </h3>
+  <hr>
+  <input id="email" name="email" placeholder="Email" type="text">
+  <input id="password" name="password" placeholder="Password" type="text">
+  <a href="javascript:void(0)" id="signin" class = "topmargin"> Sign In</a>
+  <a href="javascript:void(0)" id="signup" class = "topmargin"> Sign Up</a>
+  <div id = "logininfo"></div>
+  </form>
+  </div>
+  <!-- Popup Div Ends Here -->
+  </div>
+  <!-- Main Body Box -->
+  <div id='bodybox'>
+    <div class="jumbotron center"> <h2>Restaurant Concierge Bot</h2> </div>
+    <div class = "row fluid">
+      <div class = "col-md-5">
+        <div class = "container fluid">
+          <span class = "decorate">
+          <br><div class = "instr">INSTRUCTIONS FOR USE</div><br><br>
+          <div class = "thinbar fluid"></div>
+          <div class = "centertext fluid">
+           Tell Mr.Concierge some things, like what type<br>
+           of food you're looking for, what area you're<br>
+           looking to eat in, and what time you'd like to<br>
+           go. Mr.Concierge will then work his magic and <br>
+           give you a list of restaurants that fit your <br>
+           needs.<br><br><br>
+          </div>
+          <h6>Bon Appetit!</h6>
+          </span>
+         </div>
+        </div>
+        <div class = "col-md-7">
+          <div id='chatborder' class = "fluid">
+            <!-- Where the messages show up -->
+            <p id="chatlog 7" class="chatlog">&nbsp;</p>
+            <p id="chatlog 6" class="chatlog">&nbsp;</p>
+            <p id="chatlog 5" class="chatlog">&nbsp;</p>
+            <p id="chatlog 4" class="chatlog">&nbsp;</p>
+            <p id="chatlog 3" class="chatlog">&nbsp;</p>
+            <p id="chatlog 2" class="chatlog">&nbsp;</p>
+            <p id="chatlog 1" class="chatlog">&nbsp;</p><br>
+            <input type="text" name="chat" id="chatbox" placeholder= "Tell me what you wanna eat!" onfocus= "placeHolder()" >
+          </div>      
+        </div>
+      </div>
+      <div id = "sug" class = "instr"></div>
+      <div class = "thinbar2 fluid"></div>
+        <div class = "row fluid">
+          <!-- Row for images -->
+        <div id = "images0" class = "instr col-md-4"></div>
+        <div id = "images1" class = "instr col-md-4"></div>
+        <div id = "images2" class = "instr col-md-4"></div>
+        </div>
+        <div class = "row fluid">
+          <!-- Row for names -->
+        <div id = "names0" class = "nametext instr col-md-4"></div>
+        <div id = "names1" class = "nametext instr col-md-4"></div>
+        <div id = "names2" class = "nametext instr col-md-4"></div>
+      </div>
+      <br>
+</body>
+</html>
