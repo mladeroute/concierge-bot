@@ -2,13 +2,12 @@
 
     body {
         font: 15px arial, sans-serif;
-        background-color: #d9d9d9;
+        background-color: whitesmoke;
         padding-top: 15px;
         padding-bottom: 15px;
         }
         #bodybox {
         margin: auto;
-        height: 100%;
         font: 15px arial, sans-serif;
         background-color: white;
         border-style: solid;
@@ -18,11 +17,15 @@
         padding-right: 25px;
         padding-left: 25px;
         box-shadow: 5px 5px 5px grey;
+
         }
         #chatborder {
         border-style: solid;
         align-content: center;
-        width: 85%;
+        width: 800px;
+        height: 350px;
+        overflow-y: scroll;
+        display: inline-block;
         background-color: whitesmoke;
         border-width: 2px;
         border-color: darkgray;
@@ -39,12 +42,15 @@
         .chatlog {
         font-family: "Avenir Next";
         font-size: 13px;
+        position: relative;
+        bottom: 38;
+
         }
         #chatbox {
         font-family: "Avenir Next";
         font-size: 13px;
         height: 25px;
-        width: 78%;
+        width: 750px;
         position: absolute;
         bottom: 30;
         margin-top:5px;
@@ -96,9 +102,6 @@
         font-size: 22px;
         text-align:center;
         position: relative;
-        }
-        .scrollable{
-        overflow-y:scroll;
         }
         .fontchange{
         background-color: lightgray;
@@ -204,30 +207,30 @@
         font-family: "Avenir Next"
         }
 
-    
+
     .nametext{
     font-family: "Avenir Next";
     color: gray;
-    font-size: 14px;
+    font-size: 16px;
     }
     a:link {
     text-decoration: none;
     font-family: "Avenir Next";
     color: gray;
     }
-      
+
     a:visited {
     text-decoration: none;
     font-family: "Avenir Next";
     color: gray;
     }
-      
+
     a:hover {
     text-decoration: underline;
     font-family: "Avenir Next";
     color: gray;
     }
-      
+
     a:active {
     text-decoration: underline;
     font-family: "Avenir Next";
@@ -246,4 +249,3 @@
     color: rgb(94, 94, 94);
     margin-left: 50px;
     }
-
